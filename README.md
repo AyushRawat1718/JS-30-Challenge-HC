@@ -26,3 +26,38 @@ This repository tracks the challenges posted by Hitesh Chaudhary for their [30-d
     const result = (num_3 > 0) ? "Positive" : "Negative";
     console.log(`Number : ${num_3} is ${result}`);
     ```
+
+## Day - 03 : `Control Structres`
+
+* In switch case, when we have to check various conditions we can do this way
+    
+    Ex: Write a program that uses a switch case to assign a grade('A', 'B', 'C', 'D', 'F') based on a score.
+
+    ```javascript
+    const score = 94;
+    switch (true) {
+        case (score >= 91): console.log("A");
+            break;
+        case (score >= 81 && score <= 90): console.log("B");
+            break;
+        case (score >= 71 && score <= 80): console.log("C");
+            break;
+        case (score >= 61 && score <= 70): console.log("D");
+            break;
+        case (score <= 60): console.log("F");
+            break;
+        default:
+            break;
+    }
+    ```
+
+* A year is a Leap Year when either it is divisble by 400 or divisible by 4 but not divisible by 100, else it is a non-Leap Year
+
+    ```javascript
+    if ((year % 400 == 0) || ((year % 4 == 0) && (year % 100 !=0))){
+        console.log(`Leap Year`);
+    }
+    else {
+        console.log(`Non-Leap Year`);
+    }
+    ```
