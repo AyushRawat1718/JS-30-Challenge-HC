@@ -1,14 +1,15 @@
-//Activity - 1
+//Task 1
 const num = 5;
 if(num > 0) console.log(`Given number is positive`);
 else if (num == 0) console.log(`Given number is zero`);
 else console.log(`Given number is negative`);
 
+//Task 2
 const age = 22;
 if (age >= 18) console.log(`Person is eligibe to vote`);
 else console.log(`Person is not eligible to vote`);
 
-//Activity - 2
+//Task 3
 const num_1 = 4
 const num_2 = 5
 const num_3 = 6
@@ -30,7 +31,7 @@ else{
     }
 }
 
-//Activity - 3
+//Task 4
 const day_num = 6;
 
 switch (day_num) {
@@ -52,6 +53,7 @@ switch (day_num) {
         break;
 }
 
+//Task 5
 const score = 94;
 
 switch (true) {
@@ -69,11 +71,11 @@ switch (true) {
         break;
 }
 
-//Activity - 4
+//Task 6
 const test_num = 4;
 (test_num % 2 == 0) ? console.log(`${test_num} is even`) : console.log(`${test_num} is odd`);
 
-//Activity - 5
+//Task 7
 const year = 2100
 if ((year % 400 == 0) || ((year % 4 == 0) && (year % 100 !=0))){
     console.log(`Leap Year`);

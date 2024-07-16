@@ -1,14 +1,14 @@
-//Activity - 1
+//Task 1
 var num = 5;
 console.log(num);
 let str = "Javascript";
 console.log(str);
 
-//Activity - 2
+//Task 2
 const bool = 4.5;
 console.log(bool);
 
-//Activity - 3
+//Task 3
 let var_1 = 45;
 let var_2 = "Python";
 let var_3 = 6.9;
@@ -27,13 +27,13 @@ const data = [
   ];
 console.table(data)
 
-//Activity - 4
+//Task 4
 let num_1 = 45;
 console.log(`Value before reassignment -> ${num_1}`);
 num_1 = 50; //Reassigning a value
 console.log(`Value after reassignment -> ${num_1}`);
 
-//Activity - 5
+//Task 5
 const str_1 = "Ayush"
 console.log(str_1)
 // str_1 = "Ayush Rawat"; //This is not allowed, We can't reassign a const value.
