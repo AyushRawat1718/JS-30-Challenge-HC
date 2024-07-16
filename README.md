@@ -29,7 +29,7 @@ This repository tracks the challenges posted by Hitesh Chaudhary for their [30-d
 
 ## Day - 03 : `Control Structres`
 
-* In switch case, when we have to check various conditions we can do this way
+* In `switch case`, when we have to check various conditions we can do this way
     
     Ex: Write a program that uses a switch case to assign a grade('A', 'B', 'C', 'D', 'F') based on a score.
 
@@ -51,7 +51,7 @@ This repository tracks the challenges posted by Hitesh Chaudhary for their [30-d
     }
     ```
 
-* A year is a Leap Year when either it is divisble by 400 or divisible by 4 but not divisible by 100, else it is a non-Leap Year
+* A year is a `Leap Year` when either it is divisble by 400 or divisible by 4 but not divisible by 100, else it is a non-Leap Year
 
     ```javascript
     if ((year % 400 == 0) || ((year % 4 == 0) && (year % 100 !=0))){
@@ -60,4 +60,19 @@ This repository tracks the challenges posted by Hitesh Chaudhary for their [30-d
     else {
         console.log(`Non-Leap Year`);
     }
+    ```
+## Day - 04 : `Loops`
+
+* Finding factorial of a number using `do-while loop`
+
+    ```javascript
+    let num = 3;
+    const temp = num;
+    let fact = 1;
+    do{
+        if (num <= 0) continue;
+        fact = fact*num;
+        num--;
+    }while(num > 0);
+    console.log(`Factorial of ${temp} is ${fact}`)
     ```
