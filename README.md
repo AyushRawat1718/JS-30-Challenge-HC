@@ -76,3 +76,38 @@ This repository tracks the challenges posted by Hitesh Chaudhary for their [30-d
     }while(num > 0);
     console.log(`Factorial of ${temp} is ${fact}`)
     ```
+
+### Day - 05 : "Functions"
+
+* In case of Arrow Functions, whenever we have opened a scope in a function then we have to explicitly provide the `return` keyword
+    - With Function Scope
+    
+    ```javascript
+    const addNumbers_1 = (num1, num2) => {
+        return (num1+num2);
+    }
+    console.log(addNumbers_1(4,5));
+    ```
+
+    - Without Function Scope
+    
+    ```javascript
+    const addNumbers_2 = (num1, num2) => (num1 + num2);
+    console.log(addNumbers_2(4,5));
+    ```
+
+* We could also provide the default values to the parameters, but remember that the default parameters should always come after the non-default parameters
+    
+    ```javascript
+    function loginUserMessage(age,username = "default user"){
+            return `${username} just logged in of age ${age}`
+    }
+    console.log(loginUserMessage(35, "Jeff"));
+    console.log(loginUserMessage(18));
+    ```
+
+* Some more useful types of `for loop`
+    - `for of loop` -> [Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of)
+    - `for in loop` -> [Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
+    - `for Each loop` -> [Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+
