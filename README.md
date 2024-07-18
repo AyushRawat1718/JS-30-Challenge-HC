@@ -139,7 +139,7 @@ This repository tracks the challenges posted by Hitesh Chaudhary for their [30-d
     const res = arr.reduce((accumulator, currval) => (accumulator + currval), 0)
     console.log(`Sum of all the elements of the array ->${res}`);
     ```
-* Concept of forEach Loop : Performs the specified action (callback Function) for each element in an array.
+* Concept of `forEach` Loop : Performs the specified action (callback Function) for each element in an array.
 
     ```javascript
     arr.forEach(elem => console.log(`Current Value [Using ForEach Loop]-> ${elem}`))
