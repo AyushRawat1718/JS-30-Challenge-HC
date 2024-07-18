@@ -77,7 +77,7 @@ This repository tracks the challenges posted by Hitesh Chaudhary for their [30-d
     console.log(`Factorial of ${temp} is ${fact}`)
     ```
 
-### Day - 05 : "Functions"
+### Day - 05 : `Functions`
 
 * In case of Arrow Functions, whenever we have opened a scope in a function then we have to explicitly provide the `return` keyword
     - With Function Scope
