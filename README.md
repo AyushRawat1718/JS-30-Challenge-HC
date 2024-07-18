@@ -111,3 +111,45 @@ This repository tracks the challenges posted by Hitesh Chaudhary for their [30-d
     - `for in loop` -> [Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
     - `for Each loop` -> [Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 
+
+### Day - 06 : `Arrays`
+
+* Some basic methods of array 
+    - `push()` : Appends new elements to the end of an array, and returns the new length of the array.
+    - `pop()` : Removes the last element from an array and returns it. If the array is empty, undefined is returned and the array is not modified.
+    - `shift()` : Removes the first element from an array and returns it. If the array is empty, undefined is returned and the array is not modified.
+    - `unshift()` : Inserts new elements at the start of an array, and returns the new length of the array.
+
+* Some Intermediate array methods  
+    - `map()` : Calls a defined callback function on each element of an array, and returns an array that contains the results.
+
+    ```javascript
+    const new_arr_1 = arr.map(val => (val*2))
+    console.log(`Resultant array -> ${new_arr_1}`);
+    ```
+
+    - `filter()` : Returns the elements of an array that meet the condition specified in a callback function.
+    ```javascript
+    const new_arr_2 = arr.filter((val) => (val%2==0))
+    console.log(`Resultant array -> ${new_arr_2}`);
+    ```
+    
+    - `reduce()` : Used to accumulate the sum of all the elements of the array
+    ```javascript
+    const res = arr.reduce((accumulator, currval) => (accumulator + currval), 0)
+    console.log(`Sum of all the elements of the array ->${res}`);
+    ```
+* Concept of forEach Loop : Performs the specified action (callback Function) for each element in an array.
+
+    ```javascript
+    arr.forEach(elem => console.log(`Current Value [Using ForEach Loop]-> ${elem}`))
+    ```
+
+    ```javascript
+    const printFunc = (val) => {
+        console.log(`Current Value -> ${val}`);
+    }
+    arr.forEach(printFunc)
+    ```
+
+
